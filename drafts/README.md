@@ -1,7 +1,7 @@
 ---
 title: "DRAFTS"
 date: 2023-10-19 18:39
-categories: Random thougts
+categories: Random thoughts
 language: EN
 references:
    - None
