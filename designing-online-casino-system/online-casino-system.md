@@ -6,4 +6,4 @@ language: RU
 references:
    - None
 ---
-![uber architecture](https://github.com/srecon/high-performance-system-design/blob/main/designing-online-casino-system/architecture-casino-v3.pdf)
+![Online casino architecture](architecture-casino-v3.jpg)
