@@ -7,8 +7,8 @@ references:
    - None
 ---
 ## Backend protocols:
-1. Protocols: RSocket, GraphQL, REST
-2. Service Intercommunications: Service Mesh, RSocket Broker
+1. Protocols: RSocket, GraphQL, REST, (Grpc?, Websocket?)
+2. Service Intercommunications: Service Mesh, RSocket Broker,(Queue?,Rest?)
 3. Patters:
 	1. Event Sourcing
 	2. CQRS
@@ -16,15 +16,17 @@ references:
 4. Frameworks:
 	1. Quarkus
 	2. Spring boot
+	3. Micronault
+	4. Vert.X
 5. @todo
 
 ## Messaging 
-1. Event Bus: Apache Pulsar
+1. Event Bus: Apache Pulsar (?Kafka, ?RabbitMQ)
 
 ## Frontend stacks:
-1. ReactJS
+1. ReactJS(Next.JS)
 2. Protocols: REST, WebSockets
-2. Identification/SSO etc. KeyCloack
+2. Identification/SSO etc. KeyCloack(Auth0, Okta)
 
 ## Datamesh
 1. Patterns:
@@ -37,5 +39,7 @@ references:
 	1. Apache Nifi
 	2. Custom
 	
+## Benchmarking
+1. JMeter, Gatling
 	
 ![Basic applicaion design](Basic-1.png)
