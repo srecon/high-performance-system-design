@@ -13,14 +13,16 @@ references:
 	1. Event Sourcing
 	2. CQRS
 	3. SAGA
-4. @todo
-5. 
+4. Frameworks:
+	1. Quarkus
+	2. Spring boot
+5. @todo
 
 ## Messaging 
 1. Event Bus: Apache Pulsar
 
 ## Frontend stacks:
-1. REactJS
+1. ReactJS
 2. Protocols: REST, WebSockets
 2. Identification/SSO etc. KeyCloack
 
