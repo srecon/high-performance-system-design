@@ -6,6 +6,24 @@ language: EN
 references:
    - None
 ---
+## System descriptions:
+
+### Payment System
+3rd party payment system likes PayPal, Globalpay 
+
+### Payment gateway
+A router between payment systems
+
+### Payment settings
+
+### Transaction log
+
+### Account 
+
+### API Gateway 
+
+
+
 ## Backend protocols:
 1. Protocols: RSocket, GraphQL, REST
 2. Service Intercommunications: Service Mesh, RSocket Broker
@@ -23,19 +41,14 @@ references:
 
 ## Frontend stacks:
 1. ReactJS
-2. Protocols: REST, WebSockets
+2. Protocols: REST, Asynch (kafka)
 2. Identification/SSO etc. KeyCloack
+3. API Gateway. 
 
-## Datamesh
-1. Patterns:
-	1. Transactional Outbox
-	2. Event Sourcing
-	3. Transactional Log CDC
-2. Strategies:
-	1. Self service
-3. Tools:
-	1. Apache Nifi
-	2. Custom
+## Datalake
+1. Hadoop
+2. Cassandra 
+
 	
 	
 ![Payment gateway highlevel view](payment-gateway-2.png)
